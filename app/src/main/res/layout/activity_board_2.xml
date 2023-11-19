@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:layoutDirection="ltr"
+    android:background="@drawable/pexels456">
+
+
+    <ImageView
+        android:id="@+id/boardImageView"
+        android:layout_width="351dp"
+        android:layout_height="349dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/mair"
+        android:contentDescription="@string/todo1" />
+
+
+    <LinearLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="348dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/layout_row8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+
+                android:id="@+id/b0.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:focusable="true"
+                tools:ignore="NestedWeights" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b0.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="39dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b0.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/player1"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b0.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b0.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b0.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b0.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b0.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b1.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:clickable="false"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:ignore="NestedWeights"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+
+                android:id="@+id/b1.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b1.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b1.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b1.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b1.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b1.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b1.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b2.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true"
+                tools:ignore="NestedWeights"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b2.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b2.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b2.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b2.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b2.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b2.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player22"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b2.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b3.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:ignore="NestedWeights"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b3.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b3.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b3.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b3.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b3.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b3.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b3.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b4.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true"
+                tools:ignore="NestedWeights"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b4.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b4.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b4.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b4.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b4.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b4.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@color/black"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b4.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_row5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b5.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:ignore="NestedWeights"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b5.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b5.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b5.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b5.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b5.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b5.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b5.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_row6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b6.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true"
+                tools:ignore="NestedWeights"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b6.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                android:contextClickable="false"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b6.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b6.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b6.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b6.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b6.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b6.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_row7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b7.0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:ignore="NestedWeights"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b7.1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b7.2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b7.3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b7.4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b7.5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/b7.6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/blank_square"
+                android:contextClickable="false"
+                app:backgroundTint="@android:color/transparent"
+                tools:targetApi="m"
+                app:srcCompat="@drawable/white"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/b7.7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/blank_square"
+                app:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/player11"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="77dp"
+            android:layout_height="41dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/menu"
+            android:textColor="@color/white"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="77dp"
+            android:layout_height="41dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="250dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/restart_game"
+            android:textColor="@color/white"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ButtonStyle" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        tools:ignore="TooManyViews">
+
+
+    </TableRow>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="TooManyViews">
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="356dp"
+            android:layout_height="81dp"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.092"
+            app:srcCompat="@drawable/imagch12" />
+
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="82dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="92dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/undo"
+            android:textColor="@color/white"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.361"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/redos"
+            android:layout_width="89dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="92dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/redo"
+            android:textColor="@color/white"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="118dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="84dp"
+            android:singleLine="false"
+            android:soundEffectsEnabled="false"
+            android:text="The turn of the white"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.856"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7979606640397319/5165661573"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="MissingConstraints" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="65dp"
+            android:layout_height="49dp"
+            android:src="@drawable/imogi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.979"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.178"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

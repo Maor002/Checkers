@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">>
+    <string name="app_name">Checkers</string>
+    <string name="maor_shabakov">maor_shabakov</string>
+    <string name="player_vs_computer">player_vs_computer</string>
+    <string name="choose_a_level">choose_a_level</string>
+    <string name="normal">normal</string>
+    <string name="easy">easy</string>
+    <string name="Hard">Hard</string>
+    <string name="menu">menu</string>
+    <string name="back">back</string>
+    <string name="restart_game">restart_game</string>
+    <string name="checkers">Checkers</string>
+    <string name="player1_vs_player2">player1_vs_player2</string>
+    <string name="undo">undo</string>
+    <string name="redo">redo</string>
+    <string name="todo">todo</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="todo13">TODO13</string>
+    <string name="todo122">TODO122</string>
+    <string name="todo89">TODO89</string>
+    <string name="todo654">TODO654</string>
+    <string name="todo4684">TODO4684</string>
+    <string name="rules">RULES</string>
+</resources>
